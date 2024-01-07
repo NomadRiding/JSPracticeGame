@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>RPG game</title>
 </head>
 <body>
     <h1 class="gameTitle">The Hunter</h1>
-    <div class="game">
-        <div class="stats">
+    <div id="game">
+        <div id="stats">
             <span class="stat">Health <strong><span class="healthText">100</span></strong></span>
             <span class="stat">XP: <strong><span class="xpText">0</span></strong></span>
             <span class="stat">Gold <strong><span class="goldText">50</span></strong></span>
@@ -17,8 +17,13 @@
         <div class="controls">
             <button id="button1">General Store</button>
             <button id="button2">Fight Room</button>
-            <button id="button3">Gamble</button>
+            <button id="button3">RPS</button>
+        </div>
+        <div class="creatures">
+            <span class="stat">Monster Name: <strong></strong></span>
+            <span class="stat">Health: <strong></strong></span>
         </div>
     </div>
+    <script src="script.js" />
 </body>
 </html>
